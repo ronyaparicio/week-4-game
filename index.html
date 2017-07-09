@@ -2,26 +2,47 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title></title>
   </head>
   <body>
     <header>
-      <img src="" alt="">
+      <img class="logo" src="assets/images/logo1.png" alt="">
       <h1>CrystalsCollector</h1>
-      <button type="button" name="button"></button>
+      <button id="instructions" type="button" name="button">Instructions</button>
     </header>
     <div class="container">
+      <div class="instructions">
+        <p>You will be given a random number at the start of the game.
+
+          There are four buttons below. By clicking on button you will add a
+          specific ammount of points to your total score.
+
+          You win the game by matching your total score to the random number.
+
+          The value of each button is hidden from you until you click on it.
+
+          each time the game starts, the game will change the value of
+          each button.</p>
+
+      </div>
       <div class="randomNumber">
+        <h3 id="randomNumber">0</h3>
 
       </div>
       <div class="yourNumber">
-
+        <h3 id="yourNumber">0</h3>
       </div>
-
+      <div class="buttons">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
     </div>
-    <script type="text/javascript">
-
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
   </body>
 </html>

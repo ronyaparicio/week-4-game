@@ -1,0 +1,45 @@
+body {
+	margin:0;
+	padding: 0;
+  background: url(../images/background.jpg)
+}
+header {
+  margin: 0;
+  background-color: #3a3a3a;
+  max-height: 100px;
+  max-width: 960px;
+  margin: auto;
+}
+h1 {
+  display: inline-block;
+  margin: auto;
+  margin-left: 240px;
+  color: #fff;
+}
+.logo {
+  max-height: 90px;
+  display: inline-block;
+}
+#instructions {
+  display: inline-block;
+  margin:auto;
+  margin-left: 100px;
+}
+
+.container {
+  background-color: #3a3a3a;
+  max-width: 960px;
+  margin:auto;
+}
+
+.randomNumber {
+  display: inline-block;
+  min-width: 49%;
+  text-align: center;
+}
+
+.yourNumber {
+  display: inline-block;
+  min-width: 49%;
+  text-align: center;
+}
