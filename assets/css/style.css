@@ -36,10 +36,18 @@ h1 {
   display: inline-block;
   min-width: 49%;
   text-align: center;
+  height: 200px;
 }
 
 .yourNumber {
   display: inline-block;
   min-width: 49%;
   text-align: center;
+  height: 200px;
+}
+.buttonsContainer {
+  text-align: center;
+}
+.buttons {
+  width: 100px;
 }
