@@ -36,13 +36,14 @@ $('document').ready(function() {
       startGame();
     }
     else {
-      yourNumber = this.value + yourNumber;
+      yourNumber = parseInt(this.value) + parseInt(yourNumber);
       $("#yourNumber").html(yourNumber);
     }
 
   })
 
-  $('button.buttons').attr('value')
+
+
 
 
 
