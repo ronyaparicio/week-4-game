@@ -51,16 +51,10 @@ h1 {
 .buttons {
   width: 100px;
 	height: 100px;
+	border: none;
 }
-#button1 {
-	background: url(../images/Diamond.png);
-}
-#button2 {
-	background: url(../images/Emerald.png);
-}
-#button3 {
-	background: url(../images/Sapphire.png);
-}
-#button4 {
-	background: url(../images/unnamed.png);
+
+#button1, #button2, #button3, #button4 {
+	height: 100px;
+	width: 100px;
 }
